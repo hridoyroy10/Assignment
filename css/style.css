@@ -42,7 +42,7 @@ button {
     line-height: 23px;
 }s
 
-a.donate-btn {
+a.donate-btn{
     text-decoration: none;
     color: #fff;
 }
@@ -75,6 +75,12 @@ a.donate-btn {
     display: inline-block;
     margin: 11px;
     padding: 17px 0px;
+    transition: .5s;
+}
+.amunt:hover{
+    background-color: #b51717;
+    color: #fff;
+    
 }
 .amunt-active{
     width: 12%;
